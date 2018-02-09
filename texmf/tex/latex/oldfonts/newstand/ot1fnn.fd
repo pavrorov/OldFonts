@@ -1,0 +1,26 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, March 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{ot1fnn.fd}
+   [2004/03/10 Font definitions for OT1/fnn.]
+
+\expandafter\ifx\csname Sn@scale\endcsname\relax
+ \let\Sn@@scale\@empty
+\else
+ \edef\Sn@@scale{s*[\csname Sn@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{OT1}{fnn}{}
+
+\DeclareFontShape{OT1}{fnn}{m}{n}{<-> \Sn@@scale fnsr7tn}{}
+\DeclareFontShape{OT1}{fnn}{m}{it}{<-> \Sn@@scale fnsi7tn}{}
+\DeclareFontShape{OT1}{fnn}{bx}{n}{<-> \Sn@@scale fnsb7tn}{}
+\DeclareFontShape{OT1}{fnn}{m}{sc}{<-> \Sn@@scale fnsc7tn}{}
+
+\DeclareFontShape{OT1}{fnn}{m}{sl}{<->ssub * fnn/m/it}{}
+\DeclareFontShape{OT1}{fnn}{b}{n}{<->ssub * fnn/bx/n}{}
+
+\endinput

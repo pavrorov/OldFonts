@@ -1,0 +1,28 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, March 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{ot1lpl.fd}
+   [2004/03/10 Font definitions for OT1/lpl.]
+
+\expandafter\ifx\csname Pl@scale\endcsname\relax
+ \let\Pl@@scale\@empty
+\else
+ \edef\Pl@@scale{s*[\csname Pl@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{OT1}{lpl}{}
+
+\DeclareFontShape{OT1}{lpl}{m}{n}{<-> \Pl@@scale lplr7t}{}
+\DeclareFontShape{OT1}{lpl}{m}{it}{<-> \Pl@@scale lplri7t}{}
+\DeclareFontShape{OT1}{lpl}{m}{sc}{<-> \Pl@@scale lplrc7t}{}
+\DeclareFontShape{OT1}{lpl}{bx}{n}{<-> \Pl@@scale lplb7t}{}
+\DeclareFontShape{OT1}{lpl}{bx}{it}{<-> \Pl@@scale lplbi7t}{}
+
+\DeclareFontShape{OT1}{lpl}{b}{n}{<->ssub * lpl/bx/n}{}
+\DeclareFontShape{OT1}{lpl}{b}{it}{<->ssub * lpl/bx/it}{}
+\DeclareFontShape{OT1}{lpl}{m}{sl}{<->ssub * lpl/m/it}{}
+
+\endinput

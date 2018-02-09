@@ -1,0 +1,40 @@
+%Filename: t2dflt.fd
+%
+% By A.V.Dmitriev. Provides font scaling (June 2006).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t2dflt.fd}
+   [2006/06/19 Font definitions for T2D/flt.]
+
+\expandafter\ifx\csname Lt@scale\endcsname\relax
+ \let\Lt@@scale\@empty
+\else
+ \edef\Lt@@scale{s*[\csname Lt@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T2D}{flt}{}
+
+\DeclareFontShape{T2D}{flt}{m}{n}{   <-> \Lt@@scale fltrg6u}{}
+
+\DeclareFontShape{T2D}{flt}{m}{a}{   <-> \Lt@@scale fltr6u}{}
+
+\DeclareFontShape{T2D}{flt}{m}{it}{   <-> \Lt@@scale fltri6u}{}
+
+\DeclareFontShape{T2D}{flt}{m}{g}{   <-> \Lt@@scale fltrg6u}{}
+
+\DeclareFontShape{T2D}{flt}{b}{n}{   <-> \Lt@@scale fltb6u}{}
+
+\DeclareFontShape{T2D}{flt}{b}{it}{   <-> \Lt@@scale fltbi6u}{}
+
+\DeclareFontShape{T2D}{flt}{b}{sl}{   <-> \Lt@@scale fltbo6u}{}
+
+\DeclareFontShape{T2D}{flt}{m}{sc}{   <-> \Lt@@scale fltrc6u}{}
+
+
+\DeclareFontShape{T2D}{flt}{bx}{n}{<->ssub * flt/b/n}{}
+\DeclareFontShape{T2D}{flt}{bx}{sl}{<->ssub * flt/b/sl}{}
+\DeclareFontShape{T2D}{flt}{bx}{it}{<->ssub * flt/b/it}{}
+
+\endinput

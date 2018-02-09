@@ -1,0 +1,36 @@
+%%
+%% This is file `AcademyOld.sty' by A.V.Dmitriev, March 2004
+%% 
+%%
+%% Provides fonts scaling via
+%% the parameter [scaled=<factor>] in analogy to helvet.sty from
+%% psnfss bundle.
+%%
+\ProvidesPackage{AcademyOld}
+   [2004/03/10 AcademyOld Cyrillic font as default Roman]
+\RequirePackage{keyval}
+\define@key{Aco}{scaled}[1.0]{%
+  \def\Ao@scale{#1}}
+\def\ProcessOptionsWithKV#1{%
+  \let\@tempc\relax
+  \let\Ao@tempa\@empty
+  \@for\CurrentOption:=\@classoptionslist\do{%
+    \@ifundefined{KV@#1@\CurrentOption}%
+    {}%
+    {\edef\Ao@tempa{\Ao@tempa,\CurrentOption,}}%
+  }%
+  \edef\Ao@tempa{%
+    \noexpand\setkeys{#1}{%
+      \Ao@tempa\@ptionlist{\@currname.\@currext}%
+    }%
+  }%
+  \Ao@tempa
+}
+\ProcessOptionsWithKV{Aco}
+\AtEndOfPackage{%
+  \let\@unprocessedoptions\relax
+}
+\renewcommand{\rmdefault}{fao}
+\endinput
+%%
+%% End of file `AcademyOld.sty'.

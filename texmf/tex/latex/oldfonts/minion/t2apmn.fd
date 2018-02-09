@@ -1,0 +1,41 @@
+%Filename: t2apmn.fd
+%
+% Modified by A.V.Dmitriev to provide a font scaling (Jan. 2006).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t2apmn.fd}
+   [2006/01/05 Font definitions for T2A/pmn.]
+
+\expandafter\ifx\csname Mo@scale\endcsname\relax
+ \let\Mo@@scale\@empty
+\else
+ \edef\Mo@@scale{s*[\csname Mo@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T2A}{pmn}{}
+
+\DeclareFontShape{T2A}{pmn}{m}{n}{
+   <-> \Mo@@scale pmnr6a
+}{}
+
+\DeclareFontShape{T2A}{pmn}{m}{it}{
+   <-> \Mo@@scale pmnri6a
+}{}
+
+\DeclareFontShape{T2A}{pmn}{bx}{n}{
+   <-> \Mo@@scale pmnb6a
+}{}
+
+\DeclareFontShape{T2A}{pmn}{bx}{it}{
+   <-> \Mo@@scale pmnbi6a
+}{}
+
+\DeclareFontShape{T2A}{pmn}{m}{sc}{
+   <-> \Mo@@scale pmnrc6a
+}{}
+
+\DeclareFontShape{T2A}{pmn}{b}{n}{<->ssub * pmn/bx/n}{}
+\DeclareFontShape{T2A}{pmn}{b}{it}{<->ssub * pmn/bx/it}{}
+
+\endinput

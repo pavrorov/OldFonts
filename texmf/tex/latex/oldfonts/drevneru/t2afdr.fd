@@ -1,0 +1,24 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, Feb. 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{t2afdr.fd}
+   [2004/02/17 Font definitions for T2A/fdr.]
+
+\expandafter\ifx\csname Dr@scale\endcsname\relax
+ \let\Dr@@scale\@empty
+\else
+ \edef\Dr@@scale{s*[\csname Dr@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T2A}{fdr}{}
+
+\DeclareFontShape{T2A}{fdr}{m}{n}{<-> \Dr@@scale fdrr6a}{}
+\DeclareFontShape{T2A}{fdr}{m}{sc}{<-> \Dr@@scale fdrc6a}{}
+
+\DeclareFontShape{T2A}{fdr}{bx}{n}{<->ssub * fnn/m/sc}{}
+\DeclareFontShape{T2A}{fdr}{b}{n}{<->ssub * fnn/bx/n}{}
+
+\endinput

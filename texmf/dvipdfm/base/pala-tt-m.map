@@ -1,0 +1,29 @@
+%
+% Dvipdfm map file for Palatino Linotype (TrueType).
+%  OldFonts package, A.V.Dmitriev, Jan. 2006.
+%
+rlplr6u  t2d.enc       pala.ttf
+rlplr6a  t2a.enc       pala.ttf
+rlplr8t  t1-wgl4.enc   pala.ttf
+rlplr7t  ot1-wgl4.enc  pala.ttf
+
+rlplrc6u t2d.enc       pala.ttf
+rlplrc6a t2a.enc       pala.ttf
+rlplrc8t t1-wgl4.enc   pala.ttf
+rlplrc7t ot1-wgl4.enc  pala.ttf
+
+rlplri6u t2d.enc       palai.ttf
+rlplri6a t2a.enc       palai.ttf
+rlplri8t t1-wgl4.enc   palai.ttf
+rlplri7t ot1-wgl4.enc  palai.ttf
+
+rlplb6u  t2d.enc       palab.ttf
+rlplb6a  t2a.enc       palab.ttf
+rlplb8t  t1-wgl4.enc   palab.ttf
+rlplb7t  ot1-wgl4.enc  palab.ttf
+
+rlplbi6u t2d.enc       palabi.ttf
+rlplbi6a t2a.enc       palabi.ttf
+rlplbi8t t1-wgl4.enc   palabi.ttf
+rlplbi7t ot1-wgl4.enc  palabi.ttf
+

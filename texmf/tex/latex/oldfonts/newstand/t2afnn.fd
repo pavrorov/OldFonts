@@ -1,0 +1,26 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, March 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{t2afnn.fd}
+   [2004/03/10 Font definitions for T2A/fnn.]
+
+\expandafter\ifx\csname Sn@scale\endcsname\relax
+ \let\Sn@@scale\@empty
+\else
+ \edef\Sn@@scale{s*[\csname Sn@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T2A}{fnn}{}
+
+\DeclareFontShape{T2A}{fnn}{m}{n}{<-> \Sn@@scale fnsr6an}{}
+\DeclareFontShape{T2A}{fnn}{m}{it}{<-> \Sn@@scale fnsi6an}{}
+\DeclareFontShape{T2A}{fnn}{bx}{n}{<-> \Sn@@scale fnsb6an}{}
+\DeclareFontShape{T2A}{fnn}{m}{sc}{<-> \Sn@@scale fnsc6an}{}
+
+\DeclareFontShape{T2A}{fnn}{m}{sl}{<->ssub * fnn/m/it}{}
+\DeclareFontShape{T2A}{fnn}{b}{n}{<->ssub * fnn/bx/n}{}
+
+\endinput

@@ -1,0 +1,21 @@
+%Filename: t2dtpk.fd
+%
+% By A.V.Dmitriev. Provides font scaling (May 2005).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t2dtpk.fd}
+   [2005/06/03 Font definitions for T2D/tpk.]
+
+\expandafter\ifx\csname Pn@scale\endcsname\relax
+ \let\Pn@@scale\@empty
+\else
+ \edef\Pn@@scale{s*[\csname Pn@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T2D}{tpk}{}
+
+\DeclareFontShape{T2D}{tpk}{m}{n}{   <-> \Pn@@scale tpkr6u}{}
+
+\endinput

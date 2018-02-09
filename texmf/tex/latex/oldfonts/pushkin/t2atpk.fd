@@ -1,0 +1,21 @@
+%Filename: t2atpk.fd
+%
+% By A.V.Dmitriev. Provides font scaling (May 2005).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t2atpk.fd}
+   [2005/06/03 Font definitions for T2A/tpk.]
+
+\expandafter\ifx\csname Pn@scale\endcsname\relax
+ \let\Pn@@scale\@empty
+\else
+ \edef\Pn@@scale{s*[\csname Pn@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T2A}{tpk}{}
+
+\DeclareFontShape{T2A}{tpk}{m}{n}{   <-> \Pn@@scale tpkr6a}{}
+
+\endinput

@@ -1,0 +1,26 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, March 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{t1fez.fd}
+   [2004/03/20 Font definitions for T1/fez.]
+
+\expandafter\ifx\csname Ez@scale\endcsname\relax
+ \let\Ez@@scale\@empty
+\else
+ \edef\Ez@@scale{s*[\csname Ez@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T1}{fez}{}
+
+\DeclareFontShape{T1}{fez}{m}{n}{<-> \Ez@@scale fezr8t}{}
+\DeclareFontShape{T1}{fez}{m}{it}{<-> \Ez@@scale fezri8t}{}
+\DeclareFontShape{T1}{fez}{m}{sc}{<-> \Ez@@scale fezrc8t}{}
+
+\DeclareFontShape{T1}{fez}{bx}{n}{<->ssub * fez/m/sc}{}
+\DeclareFontShape{T1}{fez}{b}{n}{<->ssub * fez/bx/n}{}
+\DeclareFontShape{T1}{fez}{m}{sl}{<->ssub * fez/m/it}{}
+
+\endinput

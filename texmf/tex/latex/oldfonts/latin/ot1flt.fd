@@ -1,0 +1,38 @@
+%Filename: ot1flt.fd
+%
+% By A.V.Dmitriev. Provides font scaling (June 2006).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ot1flt.fd}
+   [2006/06/19 Font definitions for OT1/flt.]
+
+\expandafter\ifx\csname Lt@scale\endcsname\relax
+ \let\Lt@@scale\@empty
+\else
+ \edef\Lt@@scale{s*[\csname Lt@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{OT1}{flt}{}
+
+\DeclareFontShape{OT1}{flt}{m}{n}{   <-> \Lt@@scale fltrg7t}{}
+
+\DeclareFontShape{OT1}{flt}{m}{a}{   <-> \Lt@@scale fltr7t}{}
+
+\DeclareFontShape{OT1}{flt}{m}{it}{   <-> \Lt@@scale fltri7t}{}
+
+\DeclareFontShape{OT1}{flt}{b}{n}{   <-> \Lt@@scale fltb7t}{}
+
+\DeclareFontShape{OT1}{flt}{b}{it}{   <-> \Lt@@scale fltbi7t}{}
+
+\DeclareFontShape{OT1}{flt}{b}{sl}{   <-> \Lt@@scale fltbo7t}{}
+
+\DeclareFontShape{OT1}{flt}{m}{sc}{   <-> \Lt@@scale fltrc7t}{}
+
+
+\DeclareFontShape{OT1}{flt}{bx}{n}{<->ssub * flt/b/n}{}
+\DeclareFontShape{OT1}{flt}{bx}{sl}{<->ssub * flt/b/sl}{}
+\DeclareFontShape{OT1}{flt}{bx}{it}{<->ssub * flt/b/it}{}
+
+\endinput

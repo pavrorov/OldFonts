@@ -1,0 +1,34 @@
+%%
+%% This is file `LatinN.sty'.
+%% 
+%% By A.V.Dmitriev (March 2005). Provides font scaling via
+%% the parameter [scaled=<factor>] in analogy to helvet.sty from
+%% psnfss bundle.
+%%
+\ProvidesPackage{LatinN}[2005/03/26 Latin Narrow Cyrillic font as default roman]
+\RequirePackage{keyval}
+\define@key{Lan}{scaled}[.95]{%
+  \def\Ln@scale{#1}}
+\def\ProcessOptionsWithKV#1{%
+  \let\@tempc\relax
+  \let\Ln@tempa\@empty
+  \@for\CurrentOption:=\@classoptionslist\do{%
+    \@ifundefined{KV@#1@\CurrentOption}%
+    {}%
+    {\edef\Ln@tempa{\Ln@tempa,\CurrentOption,}}%
+  }%
+  \edef\Ln@tempa{%
+    \noexpand\setkeys{#1}{%
+      \Ln@tempa\@ptionlist{\@currname.\@currext}%
+    }%
+  }%
+  \Ln@tempa
+}
+\ProcessOptionsWithKV{Lan}
+\AtEndOfPackage{%
+  \let\@unprocessedoptions\relax
+}
+\renewcommand{\rmdefault}{fln}
+\endinput
+%%
+%% End of file `LatinN.sty'.

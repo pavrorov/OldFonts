@@ -1,0 +1,35 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, March 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{t2afns.fd}
+   [2004/03/20 Font definitions for T2A/fns.]
+
+\expandafter\ifx\csname Ns@scale\endcsname\relax
+ \let\Ns@@scale\@empty
+\else
+ \edef\Ns@@scale{s*[\csname Ns@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T2A}{fns}{}
+
+\DeclareFontShape{T2A}{fns}{m}{n}{<-> \Ns@@scale fnsr6a}{}
+\DeclareFontShape{T2A}{fns}{m}{it}{<-> \Ns@@scale fnsri6a}{}
+\DeclareFontShape{T2A}{fns}{bx}{ne}{<-> \Ns@@scale fnsb6a}{}
+\DeclareFontShape{T2A}{fns}{bx}{sl}{<-> \Ns@@scale fnsbo6a}{}
+\DeclareFontShape{T2A}{fns}{m}{sc}{<-> \Ns@@scale fnsrc6a}{}
+\DeclareFontShape{T2A}{fns}{m}{nx}{<-> \Ns@@scale fnsr6ax}{}
+\DeclareFontShape{T2A}{fns}{m}{sx}{<-> \Ns@@scale fnsc6ax}{}
+
+\DeclareFontShape{T2A}{fns}{m}{sl}{<->ssub * fns/m/it}{}
+\DeclareFontShape{T2A}{fns}{bx}{n}{<->ssub * fns/bx/ne}{} % NarrowBold expanded
+%\DeclareFontShape{T2A}{fns}{bx}{n}{<->ssub * fns/m/sx}{} % Small Caps w/spacing
+%\DeclareFontShape{T2A}{fns}{bx}{n}{<->ssub * fns/m/sc}{} % Small Caps
+\DeclareFontShape{T2A}{fns}{bx}{it}{<->ssub * fns/bx/sl}{}
+\DeclareFontShape{T2A}{fns}{b}{n}{<->ssub * fns/bx/n}{}
+\DeclareFontShape{T2A}{fns}{b}{sl}{<->ssub * fns/bx/sl}{}
+\DeclareFontShape{T2A}{fns}{b}{it}{<->ssub * fns/bx/sl}{}
+
+\endinput

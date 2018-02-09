@@ -1,0 +1,54 @@
+%
+% Pdflatex map file for Adobe Minion Pro (OpenType) and 
+% Palatino Linotype (TrueType).
+%     OldFonts Cyrillic fonts package, A.V.Dmitriev, Jan. 2006.
+%
+rpmnr6u MinionPro-Regular " T2DEncoding ReEncodeFont " <t2d.enc       << MinionPro-Regular.otf 
+rpmnr6a MinionPro-Regular " T2AEncoding ReEncodeFont " <t2a.enc       << MinionPro-Regular.otf 
+rpmnr8t MinionPro-Regular " T1Encoding ReEncodeFont "  <t1-wgl4.enc   << MinionPro-Regular.otf 
+rpmnr7t MinionPro-Regular " OT1Encoding ReEncodeFont " <ot1-wgl4.enc  << MinionPro-Regular.otf 
+								      
+rpmnri6a MinionPro-It " T2AEncoding ReEncodeFont " <t2a.enc           << MinionPro-It.otf
+rpmnri6u MinionPro-It " T2DEncoding ReEncodeFont " <t2d.enc	      << MinionPro-It.otf
+rpmnri8t MinionPro-It " T1Encoding ReEncodeFont "  <t1-wgl4.enc       << MinionPro-It.otf
+rpmnri7t MinionPro-It " OT1Encoding ReEncodeFont " <ot1-wgl4.enc      << MinionPro-It.otf
+
+rpmnb6a MinionPro-Bold " T2AEncoding ReEncodeFont " <t2a.enc          << MinionPro-Bold.otf
+rpmnb6u MinionPro-Bold " T2DEncoding ReEncodeFont " <t2d.enc	      << MinionPro-Bold.otf
+rpmnb8t MinionPro-Bold " T1Encoding ReEncodeFont "  <t1-wgl4.enc      << MinionPro-Bold.otf
+rpmnb7t MinionPro-Bold " OT1Encoding ReEncodeFont " <ot1-wgl4.enc     << MinionPro-Bold.otf
+
+rpmnbi6a MinionPro-BoldIt " T2AEncoding ReEncodeFont " <t2a.enc       << MinionPro-BoldIt.otf
+rpmnbi6u MinionPro-BoldIt " T2DEncoding ReEncodeFont " <t2d.enc       << MinionPro-BoldIt.otf
+rpmnbi8t MinionPro-BoldIt " T1Encoding ReEncodeFont "  <t1-wgl4.enc   << MinionPro-BoldIt.otf
+rpmnbi7t MinionPro-BoldIt " OT1Encoding ReEncodeFont " <ot1-wgl4.enc  << MinionPro-BoldIt.otf
+
+rpmnrc6a MinionPro-Regular " T2AEncoding ReEncodeFont " <t2a.enc      << MinionPro-Regular.otf
+rpmnrc6u MinionPro-Regular " T2DEncoding ReEncodeFont " <t2d.enc      << MinionPro-Regular.otf
+rpmnrc8t MinionPro-Regular " T1Encoding ReEncodeFont "  <t1-wgl4.enc  << MinionPro-Regular.otf
+rpmnrc7t MinionPro-Regular " OT1Encoding ReEncodeFont " <ot1-wgl4.enc << MinionPro-Regular.otf
+
+rlplr6u PalatinoLinotype-Roman " T2DEncoding ReEncodeFont "      <t2d.enc      <pala.ttf
+rlplr6a PalatinoLinotype-Roman " T2AAdobeEncoding ReEncodeFont " <t2a.enc      <pala.ttf
+rlplr8t PalatinoLinotype-Roman " T1Encoding ReEncodeFont "       <t1-wgl4.enc  <pala.ttf
+rlplr7t PalatinoLinotype-Roman " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc <pala.ttf
+
+rlplrc6u PalatinoLinotype-Roman " T2DEncoding ReEncodeFont "      <t2d.enc      <pala.ttf
+rlplrc6a PalatinoLinotype-Roman " T2AAdobeEncoding ReEncodeFont " <t2a.enc      <pala.ttf
+rlplrc8t PalatinoLinotype-Roman " T1Encoding ReEncodeFont "       <t1-wgl4.enc  <pala.ttf
+rlplrc7t PalatinoLinotype-Roman " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc <pala.ttf
+
+rlplri6u PalatinoLinotype-Italic " T2DEncoding ReEncodeFont "      <t2d.enc      <palai.ttf
+rlplri6a PalatinoLinotype-Italic " T2AAdobeEncoding ReEncodeFont " <t2a.enc	 <palai.ttf
+rlplri8t PalatinoLinotype-Italic " T1Encoding ReEncodeFont "       <t1-wgl4.enc  <palai.ttf
+rlplri7t PalatinoLinotype-Italic " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc <palai.ttf
+
+rlplb6u PalatinoLinotype-Bold " T2DEncoding ReEncodeFont "      <t2d.enc      <palab.ttf
+rlplb6a PalatinoLinotype-Bold " T2AAdobeEncoding ReEncodeFont " <t2a.enc      <palab.ttf
+rlplb8t PalatinoLinotype-Bold " T1Encoding ReEncodeFont "       <t1-wgl4.enc  <palab.ttf
+rlplb7t PalatinoLinotype-Bold " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc <palab.ttf
+
+rlplbi6u PalatinoLinotype-BoldItalic " T2DEncoding ReEncodeFont "      <t2d.enc      <palabi.ttf
+rlplbi6a PalatinoLinotype-BoldItalic " T2AAdobeEncoding ReEncodeFont " <t2a.enc      <palabi.ttf
+rlplbi8t PalatinoLinotype-BoldItalic " T1Encoding ReEncodeFont "       <t1-wgl4.enc  <palabi.ttf
+rlplbi7t PalatinoLinotype-BoldItalic " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc <palabi.ttf

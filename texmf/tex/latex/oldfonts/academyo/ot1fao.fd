@@ -1,0 +1,30 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, Feb. 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{ot1fao.fd}
+   [2004/02/17 Font definitions for OT1/fao.]
+
+\expandafter\ifx\csname Ao@scale\endcsname\relax
+ \let\Ao@@scale\@empty
+\else
+ \edef\Ao@@scale{s*[\csname Ao@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{OT1}{fao}{}
+
+\DeclareFontShape{OT1}{fao}{m}{n}{<-> \Ao@@scale faor7t}{}
+\DeclareFontShape{OT1}{fao}{m}{it}{<-> \Ao@@scale faori7t}{}
+\DeclareFontShape{OT1}{fao}{bx}{n}{<-> \Ao@@scale faob7t}{}
+\DeclareFontShape{OT1}{fao}{bx}{sl}{<-> \Ao@@scale faobo7t}{}
+\DeclareFontShape{OT1}{fao}{m}{sc}{<-> \Ao@@scale faorc7t}{}
+
+\DeclareFontShape{OT1}{fao}{m}{sl}{<->ssub * fao/m/it}{}
+\DeclareFontShape{OT1}{fao}{b}{sl}{<->ssub * fao/bx/sl}{}
+\DeclareFontShape{OT1}{fao}{b}{it}{<->ssub * fao/bx/sl}{}
+\DeclareFontShape{OT1}{fao}{bx}{it}{<->ssub * fao/bx/sl}{}
+\DeclareFontShape{OT1}{fao}{b}{n}{<->ssub * fao/bx/n}{}
+
+\endinput

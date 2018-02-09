@@ -1,0 +1,36 @@
+%%
+%% This is file `GaramondMinion.sty'.
+%%
+%% Modified by A.V.Dmitriev to provide a font scaling via
+%% a parameter [scaled=<factor>] similar to helvet.sty
+%% package from psnfss (August 2003).
+%%
+%%
+\ProvidesPackage{Minion}[2006/01/03 Adobe MinionPro Cyrillic font as default roman]
+\NeedsTeXFormat{LaTeX2e}[1998/12/01]
+\RequirePackage{keyval}
+\define@key{Min}{scaled}[1.20]{%
+  \def\Mo@scale{#1}}
+\def\ProcessOptionsWithKV#1{%
+  \let\@tempc\relax
+  \let\Mo@tempa\@empty
+  \@for\CurrentOption:=\@classoptionslist\do{%
+    \@ifundefined{KV@#1@\CurrentOption}%
+    {}%
+    {\edef\Mo@tempa{\Mo@tempa,\CurrentOption,}}%
+  }%
+  \edef\Mo@tempa{%
+    \noexpand\setkeys{#1}{%
+      \Mo@tempa\@ptionlist{\@currname.\@currext}%
+    }%
+  }%
+  \Mo@tempa
+}
+\ProcessOptionsWithKV{Min}
+\AtEndOfPackage{%
+  \let\@unprocessedoptions\relax
+}
+\renewcommand{\rmdefault}{pmn}
+\endinput
+%%
+%% End of file `Minion.sty'.

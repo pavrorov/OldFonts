@@ -1,0 +1,41 @@
+%Filename: t2dpmn.fd
+%
+% Modified by A.V.Dmitriev to provide a font scaling (Jan. 2006).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t2dpmn.fd}
+   [2006/01/05 Font definitions for T2D/pmn.]
+
+\expandafter\ifx\csname Mo@scale\endcsname\relax
+ \let\Mo@@scale\@empty
+\else
+ \edef\Mo@@scale{s*[\csname Mo@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T2D}{pmn}{}
+
+\DeclareFontShape{T2D}{pmn}{m}{n}{
+   <-> \Mo@@scale pmnr6u
+}{}
+
+\DeclareFontShape{T2D}{pmn}{m}{it}{
+   <-> \Mo@@scale pmnri6u
+}{}
+
+\DeclareFontShape{T2D}{pmn}{bx}{n}{
+   <-> \Mo@@scale pmnb6u
+}{}
+
+\DeclareFontShape{T2D}{pmn}{bx}{it}{
+   <-> \Mo@@scale pmnbi6u
+}{}
+
+\DeclareFontShape{T2D}{pmn}{m}{sc}{
+   <-> \Mo@@scale pmnrc6u
+}{}
+
+\DeclareFontShape{T2D}{pmn}{b}{n}{<->ssub * pmn/bx/n}{}
+\DeclareFontShape{T2D}{pmn}{b}{it}{<->ssub * pmn/bx/it}{}
+
+\endinput

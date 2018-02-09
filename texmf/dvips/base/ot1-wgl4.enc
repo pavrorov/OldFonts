@@ -1,0 +1,121 @@
+% T1-WGL4.enc
+%
+%
+% This is LaTeX OT1 encoding for WGL4 encoded TrueType fonts
+% (e.g. from Windows 98)
+%
+%
+% LIGKERN space l =: lslash ;
+% LIGKERN space L =: Lslash ;
+% LIGKERN question quoteleft =: questiondown ;
+% LIGKERN exclam quoteleft =: exclamdown ;
+% LIGKERN hyphen hyphen =: endash ;
+% LIGKERN endash hyphen =: emdash ;
+% LIGKERN quoteleft quoteleft =: quotedblleft ;
+% LIGKERN quoteright quoteright =: quotedblright ;
+%
+% LIGKERN f i =: fi ;
+% LIGKERN f l =: fl ;
+% LIGKERN f f =: ff ;
+% LIGKERN ff i =: ffi ;
+% LIGKERN ff l =: ffl ;
+%
+%   We blow away kerns to and from spaces (TeX doesn't have a
+%   space) and also remove any kerns from the numbers.
+%
+% LIGKERN space {} * ; * {} space ;
+% LIGKERN zero {} * ; * {} zero ;
+% LIGKERN one {} * ; * {} one ;
+% LIGKERN two {} * ; * {} two ;
+% LIGKERN three {} * ; * {} three ;
+% LIGKERN four {} * ; * {} four ;
+% LIGKERN five {} * ; * {} five ;
+% LIGKERN six {} * ; * {} six ;
+% LIGKERN seven {} * ; * {} seven ;
+% LIGKERN eight {} * ; * {} eight ;
+% LIGKERN nine {} * ; * {} nine ;
+
+/OT1Encoding [          % now 256 chars follow
+% 0x00
+ /Gamma /Delta /Theta /Lambda
+ /Xi    /Pi    /Sigma /Upsilon
+ /Phi   /Psi   /Omega /ff
+ /fi    /fl    /ffi   /ffl
+% 0x10
+ /dotlessi /dotlessj  /grave  /acute
+ /caron    /breve     /macron /ring
+ /cedilla  /germandbls /ae    /oe
+ /oslash   /AE        /OE     /Oslash
+% 0x20
+ /suppress  /exclam     /quotedblright /numbersign
+ /dollar    /percent    /ampersand     /quoteright
+ /parenleft /parenright /asterisk      /plus
+ /comma     /hyphen     /period        /slash
+% 0x30
+ /zero /one   /two   /three
+ /four /five  /six   /seven
+ /eight /nine /colon /semicolon
+ /exclamdown /equal  /questiondown /question
+% 0x40
+ /at /A /B /C 
+ /D /E /F /G 
+ /H /I /J /K 
+ /L /M /N /O
+% 0x50
+ /P /Q /R /S
+ /T /U /V /W
+ /X /Y /Z /bracketleft
+ /quotedblleft /bracketright /circumflex /dotaccent
+% 0x60
+ /quoteleft /a /b /c
+ /d /e /f /g
+ /h /i /j /k
+ /l /m /n /o
+% 0x70
+ /p /q /r /s
+ /t /u /v /w
+ /x /y /z /endash
+ /emdash /hungarumlaut /tilde /dieresis
+%0x80
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+%0x90
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+%0xA0
+ /space /Gamma /Delta /Theta 
+ /Lambda /Xi /Pi /Sigma
+ /Upsilon /Phi /Psi /.notdef
+ /.notdef /Omega /ff /fi 
+% 0xB0
+ /fl       /ffi    /ffl   /dotlessi
+ /dotlessj /grave  /acute /caron
+ /breve    /macron /ring  /cedilla
+ /germandbls /ae   /oe    /oslash
+% 0xC0
+ /AE       /OE      /Oslash  /suppress
+ /dieresis /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+% 0xD0
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /Lslash /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+% 0xE0
+ /arrowup /arrowdown /quotesingle /.notdef
+ /quotedbl /backslash /underscore /.notdef
+ /braceleft /bar /braceright  /.notdef
+ /less /greater /.notdef /.notdef
+% 0xF0
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /lslash /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+] def
+
+% eof

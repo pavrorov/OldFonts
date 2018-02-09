@@ -1,0 +1,35 @@
+%%
+%% Provides MS Palatino scaled via parameter [scaled=<factor>]
+%% similar to the package helvet.sty from psnfss.
+%%
+%%		A.V.Dmitriev, March 2004.
+%%
+\ProvidesPackage{Palatino}
+   [2004/03/10 v.1 Palatino Linotype Cyrillic font as default Roman]
+\NeedsTeXFormat{LaTeX2e}[1998/12/01]
+\RequirePackage{keyval}
+\define@key{Pal}{scaled}[1.0]{%
+  \def\Pl@scale{#1}}
+\def\ProcessOptionsWithKV#1{%
+  \let\@tempc\relax
+  \let\Pl@tempa\@empty
+  \@for\CurrentOption:=\@classoptionslist\do{%
+    \@ifundefined{KV@#1@\CurrentOption}%
+    {}%
+    {\edef\Pl@tempa{\Pl@tempa,\CurrentOption,}}%
+  }%
+  \edef\Pl@tempa{%
+    \noexpand\setkeys{#1}{%
+      \Pl@tempa\@ptionlist{\@currname.\@currext}%
+    }%
+  }%
+  \Pl@tempa
+}
+\ProcessOptionsWithKV{Pal}
+\AtEndOfPackage{%
+  \let\@unprocessedoptions\relax
+}
+\renewcommand{\rmdefault}{lpl}
+\endinput
+%%
+%% End of file `Palatino.sty'.

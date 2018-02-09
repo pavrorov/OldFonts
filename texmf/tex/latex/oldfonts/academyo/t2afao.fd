@@ -1,0 +1,30 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, Feb. 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{t2afao.fd}
+   [2004/02/17 Font definitions for T2A/fao.]
+
+\expandafter\ifx\csname Ao@scale\endcsname\relax
+ \let\Ao@@scale\@empty
+\else
+ \edef\Ao@@scale{s*[\csname Ao@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T2A}{fao}{}
+
+\DeclareFontShape{T2A}{fao}{m}{n}{<-> \Ao@@scale faor6a}{}
+\DeclareFontShape{T2A}{fao}{m}{it}{<-> \Ao@@scale faori6a}{}
+\DeclareFontShape{T2A}{fao}{bx}{n}{<-> \Ao@@scale faob6a}{}
+\DeclareFontShape{T2A}{fao}{bx}{sl}{<-> \Ao@@scale faobo6a}{}
+\DeclareFontShape{T2A}{fao}{m}{sc}{<-> \Ao@@scale faorc6a}{}
+
+\DeclareFontShape{T2A}{fao}{b}{n}{<->ssub * fao/bx/n}{}
+\DeclareFontShape{T2A}{fao}{b}{sl}{<->ssub * fao/bx/sl}{}
+\DeclareFontShape{T2A}{fao}{b}{it}{<->ssub * fao/bx/sl}{}
+\DeclareFontShape{T2A}{fao}{bx}{it}{<->ssub * fao/bx/sl}{}
+\DeclareFontShape{T2A}{fao}{m}{sl}{<->ssub * fao/m/it}{}
+
+\endinput

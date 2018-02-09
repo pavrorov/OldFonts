@@ -1,0 +1,29 @@
+%Filename: t2dfln.fd
+%
+% By A.V.Dmitriev. Provides font scaling (June 2006).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t2dfln.fd}
+   [2006/06/19 Font definitions for T2D/fln.]
+
+\expandafter\ifx\csname Ln@scale\endcsname\relax
+ \let\Ln@@scale\@empty
+\else
+ \edef\Ln@@scale{s*[\csname Ln@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T2D}{fln}{}
+
+\DeclareFontShape{T2D}{fln}{m}{n}{    <-> \Ln@@scale fltrg6un}{}
+\DeclareFontShape{T2D}{fln}{m}{a}{    <-> \Ln@@scale fltr6un}{}
+\DeclareFontShape{T2D}{fln}{m}{it}{   <-> \Ln@@scale flti6un}{}
+\DeclareFontShape{T2D}{fln}{b}{n}{    <-> \Ln@@scale fltb6un}{}
+\DeclareFontShape{T2D}{fln}{b}{it}{    <-> \Ln@@scale fltbi6un}{}
+\DeclareFontShape{T2D}{fln}{m}{sc}{   <-> \Ln@@scale fltc6un}{}
+
+\DeclareFontShape{T2D}{fln}{bx}{n}{<->ssub * fln/b/n}{}
+\DeclareFontShape{T2D}{fln}{bx}{it}{<->ssub * fln/b/it}{}
+
+\endinput

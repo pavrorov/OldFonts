@@ -1,0 +1,54 @@
+%
+% Dvipdfm map file for Palatino Linotype and Adobe Minion, 
+% both in PS Type 1 versions.
+%  A.V.Dmitriev, Jan. 2006.
+%
+rlplr6u  t2d.enc       pala.pfb
+rlplr6a  t2a.enc       pala.pfb
+rlplr8t  t1-wgl4.enc   pala.pfb
+rlplr7t  ot1-wgl4.enc  pala.pfb
+
+rlplrc6u t2d.enc       pala.pfb
+rlplrc6a t2a.enc       pala.pfb
+rlplrc8t t1-wgl4.enc   pala.pfb
+rlplrc7t ot1-wgl4.enc  pala.pfb
+
+rlplri6u t2d.enc       palai.pfb
+rlplri6a t2a.enc       palai.pfb
+rlplri8t t1-wgl4.enc   palai.pfb
+rlplri7t ot1-wgl4.enc  palai.pfb
+
+rlplb6u  t2d.enc       palab.pfb
+rlplb6a  t2a.enc       palab.pfb
+rlplb8t  t1-wgl4.enc   palab.pfb
+rlplb7t  ot1-wgl4.enc  palab.pfb
+
+rlplbi6u t2d.enc       palabi.pfb
+rlplbi6a t2a.enc       palabi.pfb
+rlplbi8t t1-wgl4.enc   palabi.pfb
+rlplbi7t ot1-wgl4.enc  palabi.pfb
+
+rpmnr6u  t2d.enc       minion.pfb
+rpmnr6a  t2a.enc       minion.pfb
+rpmnr8t  t1-wgl4.enc   minion.pfb
+rpmnr7t  ot1-wgl4.enc  minion.pfb
+
+rpmnri6a t2a.enc       minioni.pfb
+rpmnri6u t2d.enc       minioni.pfb
+rpmnri8t t1-wgl4.enc   minioni.pfb
+rpmnri7t ot1-wgl4.enc  minioni.pfb
+
+rpmnb6a  t2a.enc       minionb.pfb
+rpmnb6u  t2d.enc       minionb.pfb
+rpmnb8t  t1-wgl4.enc   minionb.pfb
+rpmnb7t  ot1-wgl4.enc  minionb.pfb
+
+rpmnbi6a t2a.enc       minionbi.pfb
+rpmnbi6u t2d.enc       minionbi.pfb
+rpmnbi8t t1-wgl4.enc   minionbi.pfb
+rpmnbi7t ot1-wgl4.enc  minionbi.pfb
+
+rpmnrc6a t2a.enc       minion.pfb
+rpmnrc6u t2d.enc       minion.pfb
+rpmnrc8t t1-wgl4.enc   minion.pfb
+rpmnrc7t ot1-wgl4.enc  minion.pfb

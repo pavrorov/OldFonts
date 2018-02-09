@@ -1,0 +1,38 @@
+%Filename: t1flt.fd
+%
+% By A.V.Dmitriev. Provides font scaling (June 2005).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t1flt.fd}
+   [2006/06/19 Font definitions for T1/flt.]
+
+\expandafter\ifx\csname Lt@scale\endcsname\relax
+ \let\Lt@@scale\@empty
+\else
+ \edef\Lt@@scale{s*[\csname Lt@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T1}{flt}{}
+
+\DeclareFontShape{T1}{flt}{m}{n}{   <-> \Lt@@scale fltrg8t}{}
+
+\DeclareFontShape{T1}{flt}{m}{a}{   <-> \Lt@@scale fltr8t}{}
+
+\DeclareFontShape{T1}{flt}{m}{it}{   <-> \Lt@@scale fltri8t}{}
+
+\DeclareFontShape{T1}{flt}{b}{n}{   <-> \Lt@@scale fltb8t}{}
+
+\DeclareFontShape{T1}{flt}{b}{it}{   <-> \Lt@@scale fltbi8t}{}
+
+\DeclareFontShape{T1}{flt}{b}{sl}{   <-> \Lt@@scale fltbo8t}{}
+
+\DeclareFontShape{T1}{flt}{m}{sc}{   <-> \Lt@@scale fltrc8t}{}
+
+
+\DeclareFontShape{T1}{flt}{bx}{n}{<->ssub * flt/b/n}{}
+\DeclareFontShape{T1}{flt}{bx}{sl}{<->ssub * flt/b/sl}{}
+\DeclareFontShape{T1}{flt}{bx}{it}{<->ssub * flt/b/it}{}
+
+\endinput

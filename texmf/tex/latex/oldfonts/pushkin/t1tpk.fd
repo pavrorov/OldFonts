@@ -1,0 +1,21 @@
+%Filename: t1tpk.fd
+%
+% By A.V.Dmitriev. Provides font scaling (May 2005).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t1tpk.fd}
+   [2005/06/03 Font definitions for T1/tpk.]
+
+\expandafter\ifx\csname Pn@scale\endcsname\relax
+ \let\Pn@@scale\@empty
+\else
+ \edef\Pn@@scale{s*[\csname Pn@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T1}{tpk}{}
+
+\DeclareFontShape{T1}{tpk}{m}{n}{   <-> \Pn@@scale tpkr8t}{}
+
+\endinput

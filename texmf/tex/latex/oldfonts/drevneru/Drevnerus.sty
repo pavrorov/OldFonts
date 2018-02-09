@@ -1,0 +1,36 @@
+%%
+%% This is file `Drevnerus.sty' by A.V.Dmitriev, Feb. 2004
+%% 
+%%
+%% Provides fonts scaling via
+%% the parameter [scaled=<factor>] in analogy to helvet.sty from
+%% psnfss bundle.
+%%
+\ProvidesPackage{Drevnerus}
+   [2004/02/12 Drevnerusskij Cyrillic font as default Sans Serif]
+\RequirePackage{keyval}
+\define@key{Dru}{scaled}[1.0]{%
+  \def\Dr@scale{#1}}
+\def\ProcessOptionsWithKV#1{%
+  \let\@tempc\relax
+  \let\Dr@tempa\@empty
+  \@for\CurrentOption:=\@classoptionslist\do{%
+    \@ifundefined{KV@#1@\CurrentOption}%
+    {}%
+    {\edef\Dr@tempa{\Dr@tempa,\CurrentOption,}}%
+  }%
+  \edef\Dr@tempa{%
+    \noexpand\setkeys{#1}{%
+      \Dr@tempa\@ptionlist{\@currname.\@currext}%
+    }%
+  }%
+  \Dr@tempa
+}
+\ProcessOptionsWithKV{Dru}
+\AtEndOfPackage{%
+  \let\@unprocessedoptions\relax
+}
+\renewcommand{\sfdefault}{fdr}
+\endinput
+%%
+%% End of file `Drevnerus.sty'.

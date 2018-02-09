@@ -1,0 +1,223 @@
+%
+% Dvipdfm map file for OldFonts package (PS Type 1 version)
+%  A.V.Dmitriev, June 2006.
+%
+rfaor7t ot1-wgl4.enc  acado___.pfb
+rfaor8t t1-wgl4.enc   acado___.pfb
+rfaor6a t2a.enc       acado___.pfb
+rfaor6u t2d.enc       acado___.pfb
+
+rfaori7t ot1-wgl4.enc  acadoi__.pfb
+rfaori8t t1-wgl4.enc   acadoi__.pfb
+rfaori6a t2a.enc       acadoi__.pfb
+rfaori6u t2d.enc       acadoi__.pfb
+
+rfaob7t ot1-wgl4.enc  acadob__.pfb
+rfaob8t t1-wgl4.enc   acadob__.pfb
+rfaob6a t2a.enc       acadob__.pfb
+rfaob6u t2d.enc       acadob__.pfb
+
+rfaobo6a  t2a.enc       acadobo_.pfb
+rfaobo6u  t2d.enc       acadobo_.pfb
+rfaobo8t  t1-wgl4.enc   acadobo_.pfb
+rfaobo7t  ot1-wgl4.enc  acadobo_.pfb
+
+rfaorc7t ot1-wgl4.enc  acado___.pfb
+rfaorc8t t1-wgl4.enc   acado___.pfb
+rfaorc6a t2a.enc       acado___.pfb
+rfaorc6u t2d.enc       acado___.pfb
+
+rfaor7tn ot1-wgl4.enc  acadon__.pfb
+rfaor8tn t1-wgl4.enc   acadon__.pfb
+rfaor6an t2a.enc       acadon__.pfb
+rfaor6un t2d.enc       acadon__.pfb
+
+rfaoi7tn ot1-wgl4.enc  acadoni_.pfb
+rfaoi8tn t1-wgl4.enc   acadoni_.pfb
+rfaoi6an t2a.enc       acadoni_.pfb
+rfaoi6un t2d.enc       acadoni_.pfb
+
+rfaob7tn ot1-wgl4.enc  acadonb_.pfb
+rfaob8tn t1-wgl4.enc   acadonb_.pfb
+rfaob6an t2a.enc       acadonb_.pfb
+rfaob6un t2d.enc       acadonb_.pfb
+
+rfaoc7tn ot1-wgl4.enc  acadon__.pfb
+rfaoc8tn t1-wgl4.enc   acadon__.pfb
+rfaoc6an t2a.enc       acadon__.pfb
+rfaoc6un t2d.enc       acadon__.pfb
+ 
+rtcrr6a   t2a.enc      crr35_or.pfb
+rtcrr6u   t2d.enc      crr35_or.pfb
+rtcrr8t  t1-wgl4.enc   crr35__a.pfb
+rtcrr7t  ot1-wgl4.enc  crr35__a.pfb
+
+rtcrro6a  t2a.enc      crr35_or.pfb
+rtcrro6u  t2d.enc      crr35_or.pfb
+rtcrro8t t1-wgl4.enc   crr35__a.pfb
+rtcrro7t ot1-wgl4.enc  crr35__a.pfb
+
+rfdrr6a  t2a.enc  drevneru.pfb
+rfdrc6a  t2a.enc  drevneru.pfb
+rfdrr6u  t2d.enc  drevneru.pfb
+rfdrc6u  t2d.enc  drevneru.pfb
+
+rfezr7t  ot1-wgl4.enc  elizupsr.pfb 
+rfezr8t  t1-wgl4.enc   elizupsr.pfb 
+rfezr6a  t2a.enc       elizupsr.pfb 
+rfezr6u  t2d.enc       elizupsr.pfb
+
+rfezrc7t ot1-wgl4.enc  elizupsr.pfb
+rfezrc8t t1-wgl4.enc   elizupsr.pfb
+rfezrc6a  t2a.enc      elizupsr.pfb 
+rfezrc6u  t2d.enc      elizupsr.pfb
+
+rfezri7t ot1-wgl4.enc  elizupsi.pfb
+rfezri8t t1-wgl4.enc   elizupsi.pfb
+rfezri6a t2a.enc       elizupsi.pfb
+rfezri6u t2d.enc       elizupsi.pfb
+
+rfezr7tn  ot1-wgl4.enc  elizupsn.pfb 
+rfezr8tn  t1-wgl4.enc   elizupsn.pfb 
+rfezr6an  t2a.enc       elizupsn.pfb 
+rfezr6un  t2d.enc       elizupsn.pfb
+
+rfezc7tn ot1-wgl4.enc  elizupsn.pfb
+rfezc8tn t1-wgl4.enc   elizupsn.pfb
+rfezc6an  t2a.enc      elizupsn.pfb 
+rfezc6un  t2d.enc      elizupsn.pfb
+
+rfezi6an t2a.enc       elizupin.pfb
+rfezi6un t2d.enc       elizupin.pfb
+rfezi8tn t1-wgl4.enc   elizupin.pfb
+rfezi7tn ot1-wgl4.enc  elizupin.pfb
+
+rfltr6a  t2a.enc       latin___.pfb
+rfltr6u  t2d.enc       latin___.pfb
+rfltr8t  t1-wgl4.enc   latin___.pfb
+rfltr7t  ot1-wgl4.enc  latin___.pfb
+
+rfltrc6a t2a.enc       latin___.pfb
+rfltrc6u t2d.enc       latin___.pfb
+rfltrc8t t1-wgl4.enc   latin___.pfb
+rfltrc7t ot1-wgl4.enc  latin___.pfb
+
+rfltri6a t2a.enc       latini__.pfb
+rfltri6u t2d.enc       latini__.pfb
+rfltri8t t1-wgl4.enc   latini__.pfb
+rfltri7t ot1-wgl4.enc  latini__.pfb
+
+rfltb6a  t2a.enc       latinb__.pfb
+rfltb6u  t2d.enc       latinb__.pfb
+rfltb8t  t1-wgl4.enc   latinb__.pfb
+rfltb7t  ot1-wgl4.enc  latinb__.pfb
+
+rfltbi6u t2d.enc       latinbi_.pfb
+rfltbi6a t2a.enc       latinbi_.pfb
+rfltbi8t t1-wgl4.enc   latinbi_.pfb
+rfltbi7t ot1-wgl4.enc  latinbi_.pfb
+
+rfltbo6a t2a.enc       latinbo_.pfb
+rfltbo6u t2d.enc       latinbo_.pfb
+rfltbo8t t1-wgl4.enc   latinbo_.pfb
+rfltbo7t ot1-wgl4.enc  latinbo_.pfb
+
+rfltr6an  t2a.enc       latinn__.pfb
+rfltr6un  t2d.enc       latinn__.pfb
+rfltr8tn  t1-wgl4.enc   latinn__.pfb
+rfltr7tn  ot1-wgl4.enc  latinn__.pfb
+
+rfltc6an  t2a.enc       latinn__.pfb
+rfltc6un  t2d.enc       latinn__.pfb
+rfltc8tn  t1-wgl4.enc   latinn__.pfb
+rfltc7tn  ot1-wgl4.enc  latinn__.pfb
+
+rflti6an  t2a.enc       latinin_.pfb
+rflti6un  t2d.enc       latinin_.pfb
+rflti8tn  t1-wgl4.enc   latinin_.pfb
+rflti7tn  ot1-wgl4.enc  latinin_.pfb
+
+rfltb6an  t2a.enc	latinbn_.pfb
+rfltb6un  t2d.enc	latinbn_.pfb
+rfltb8tn  t1-wgl4.enc	latinbn_.pfb
+rfltb7tn  ot1-wgl4.enc  latinbn_.pfb
+
+rfltbi6un t2d.enc       latinbin.pfb 
+rfltbi6an t2a.enc       latinbin.pfb
+rfltbi8tn t1-wgl4.enc   latinbin.pfb
+rfltbi7tn ot1-wgl4.enc  latinbin.pfb
+
+rfltrg6a  t2a.enc       lating__.pfb
+rfltrg6u  t2d.enc       lating__.pfb
+rfltrg8t  t1-wgl4.enc   lating__.pfb
+rfltrg7t  ot1-wgl4.enc  lating__.pfb
+
+rfltrg6an  t2a.enc       latingn_.pfb
+rfltrg6un  t2d.enc       latingn_.pfb
+rfltrg8tn  t1-wgl4.enc   latingn_.pfb
+rfltrg7tn  ot1-wgl4.enc  latingn_.pfb
+
+rfnsr7t   ot1-wgl4.enc  nstao___.pfb
+rfnsr8t   t1-wgl4.enc   nstao___.pfb
+rfnsr6a   t2a.enc       nstao___.pfb
+rfnsr6u   t2d.enc       nstao___.pfb
+
+rfnsrc7t  ot1-wgl4.enc  nstao___.pfb
+rfnsrc8t  t1-wgl4.enc   nstao___.pfb
+rfnsrc6a  t2a.enc       nstao___.pfb
+rfnsrc6u  t2d.enc       nstao___.pfb
+
+rfnsri7t  ot1-wgl4.enc  nstaoi__.pfb
+rfnsri8t  t1-wgl4.enc   nstaoi__.pfb
+rfnsri6a  t2a.enc       nstaoi__.pfb
+rfnsri6u  t2d.enc       nstaoi__.pfb
+
+rfnsb7t   ot1-wgl4.enc  nstaob__.pfb
+rfnsb8t   t1-wgl4.enc   nstaob__.pfb
+rfnsb6a   t2a.enc       nstaob__.pfb
+rfnsb6u   t2d.enc       nstaob__.pfb
+
+rfnsbo6a  t2a.enc       nstaobo_.pfb
+rfnsbo6u  t2d.enc       nstaobo_.pfb
+rfnsbo8t  t1-wgl4.enc   nstaobo_.pfb
+rfnsbo7t  ot1-wgl4.enc  nstaobo_.pfb
+
+rfnsc7tx  ot1-wgl4.enc  nstaox__.pfb
+rfnsc8tx  t1-wgl4.enc   nstaox__.pfb
+rfnsc6ax  t2a.enc       nstaox__.pfb
+rfnsc6ux  t2d.enc       nstaox__.pfb
+
+rfnsr7tx  ot1-wgl4.enc  nstaox__.pfb
+rfnsr8tx  t1-wgl4.enc	nstaox__.pfb
+rfnsr6ax  t2a.enc	nstaox__.pfb
+rfnsr6ux  t2d.enc	nstaox__.pfb
+
+rfnsr7tn  ot1-wgl4.enc  nstaon__.pfb
+rfnsr8tn  t1-wgl4.enc   nstaon__.pfb
+rfnsr6an  t2a.enc       nstaon__.pfb
+rfnsr6un  t2d.enc       nstaon__.pfb
+
+rfnsc7tn  ot1-wgl4.enc  nstaon__.pfb
+rfnsc8tn  t1-wgl4.enc   nstaon__.pfb
+rfnsc6an  t2a.enc       nstaon__.pfb
+rfnsc6un  t2d.enc       nstaon__.pfb
+
+rfnsi7tn  ot1-wgl4.enc  nstaoni_.pfb
+rfnsi8tn  t1-wgl4.enc   nstaoni_.pfb
+rfnsi6an  t2a.enc       nstaoni_.pfb
+rfnsi6un  t2d.enc       nstaoni_.pfb
+
+rfnsb7tn  ot1-wgl4.enc  nstaonb_.pfb
+rfnsb8tn  t1-wgl4.enc   nstaonb_.pfb
+rfnsb6an  t2a.enc       nstaonb_.pfb
+rfnsb6un  t2d.enc       nstaonb_.pfb
+
+rfnsb7t  ot1-wgl4.enc  nstaonb_.pfb
+rfnsb8t  t1-wgl4.enc   nstaonb_.pfb
+rfnsb6a  t2a.enc       nstaonb_.pfb
+rfnsb6u  t2d.enc       nstaonb_.pfb
+
+rtpkr6a  t2a.enc       Pushkin.pfb
+rtpkr6u  t2d.enc       Pushkin.pfb
+rtpkr8t  t1-wgl4.enc   Pushkin.pfb
+rtpkr7t  ot1-wgl4.enc  Pushkin.pfb

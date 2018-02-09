@@ -1,0 +1,36 @@
+%%
+%% This is file `ElizavetN.sty' by A.V.Dmitriev, March 2005
+%% 
+%%
+%% Provides fonts scaling via the parameter 
+%% [scaled=<factor>] in analogy to helvet.sty from
+%% psnfss bundle.
+%%
+\ProvidesPackage{ElizavetN}
+   [2005/03/26 Elizavetinskaya Narrow Cyrillic font as default Roman]
+\RequirePackage{keyval}
+\define@key{Eln}{scaled}[1.0]{%
+  \def\En@scale{#1}}
+\def\ProcessOptionsWithKV#1{%
+  \let\@tempc\relax
+  \let\En@tempa\@empty
+  \@for\CurrentOption:=\@classoptionslist\do{%
+    \@ifundefined{KV@#1@\CurrentOption}%
+    {}%
+    {\edef\En@tempa{\En@tempa,\CurrentOption,}}%
+  }%
+  \edef\En@tempa{%
+    \noexpand\setkeys{#1}{%
+      \En@tempa\@ptionlist{\@currname.\@currext}%
+    }%
+  }%
+  \En@tempa
+}
+\ProcessOptionsWithKV{Eln}
+\AtEndOfPackage{%
+  \let\@unprocessedoptions\relax
+}
+\renewcommand{\rmdefault}{fen}
+\endinput
+%%
+%% End of file `ElizavetN.sty'.

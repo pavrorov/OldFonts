@@ -1,0 +1,35 @@
+%%
+%% This is file `NewStandard.sty' by A.V.Dmitriev, March 2004
+%% 
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>]
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesPackage{NewStandard}
+   [2004/03/10 NewStandardOld Cyrillic font as default Roman]
+\RequirePackage{keyval}
+\define@key{Nso}{scaled}[1.0]{%
+  \def\Ns@scale{#1}}
+\def\ProcessOptionsWithKV#1{%
+  \let\@tempc\relax
+  \let\Ns@tempa\@empty
+  \@for\CurrentOption:=\@classoptionslist\do{%
+    \@ifundefined{KV@#1@\CurrentOption}%
+    {}%
+    {\edef\Ns@tempa{\Ns@tempa,\CurrentOption,}}%
+  }%
+  \edef\Ns@tempa{%
+    \noexpand\setkeys{#1}{%
+      \Ns@tempa\@ptionlist{\@currname.\@currext}%
+    }%
+  }%
+  \Ns@tempa
+}
+\ProcessOptionsWithKV{Nso}
+\AtEndOfPackage{%
+  \let\@unprocessedoptions\relax
+}
+\renewcommand{\rmdefault}{fns}
+\endinput
+%%
+%% End of file `NewStandard.sty'.

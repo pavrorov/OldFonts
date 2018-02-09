@@ -1,0 +1,35 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, March 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{t1fns.fd}
+   [2004/03/20 Font definitions for T1/fns.]
+
+\expandafter\ifx\csname Ns@scale\endcsname\relax
+ \let\Ns@@scale\@empty
+\else
+ \edef\Ns@@scale{s*[\csname Ns@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T1}{fns}{}
+
+\DeclareFontShape{T1}{fns}{m}{n}{<-> \Ns@@scale fnsr8t}{}
+\DeclareFontShape{T1}{fns}{m}{it}{<-> \Ns@@scale fnsri8t}{}
+\DeclareFontShape{T1}{fns}{bx}{ne}{<-> \Ns@@scale fnsb8t}{}
+\DeclareFontShape{T1}{fns}{bx}{sl}{<-> \Ns@@scale fnsbo8t}{}
+\DeclareFontShape{T1}{fns}{m}{sc}{<-> \Ns@@scale fnsrc8t}{}
+\DeclareFontShape{T1}{fns}{m}{nx}{<-> \Ns@@scale fnsr8tx}{}
+\DeclareFontShape{T1}{fns}{m}{sx}{<-> \Ns@@scale fnsc8tx}{}
+
+\DeclareFontShape{T1}{fns}{m}{sl}{<->ssub * fns/m/it}{}
+\DeclareFontShape{T1}{fns}{bx}{n}{<->ssub * fns/bx/ne}{} % NarrowBold expanded
+%\DeclareFontShape{T1}{fns}{bx}{n}{<->ssub * fns/m/sx}{} % Small Caps w/spacing
+%\DeclareFontShape{T1}{fns}{bx}{n}{<->ssub * fns/m/sc}{} % Small Caps
+\DeclareFontShape{T1}{fns}{bx}{it}{<->ssub * fns/bx/sl}{}
+\DeclareFontShape{T1}{fns}{b}{n}{<->ssub * fns/bx/n}{}
+\DeclareFontShape{T1}{fns}{b}{sl}{<->ssub * fns/bx/sl}{}
+\DeclareFontShape{T1}{fns}{b}{it}{<->ssub * fns/bx/sl}{}
+
+\endinput

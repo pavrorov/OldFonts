@@ -1,0 +1,29 @@
+%Filename: ot1fln.fd
+%
+% By A.V.Dmitriev. Provides font scaling (June 2006).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ot1fln.fd}
+   [2006/06/19 Font definitions for OT1/fln.]
+
+\expandafter\ifx\csname Ln@scale\endcsname\relax
+ \let\Ln@@scale\@empty
+\else
+ \edef\Ln@@scale{s*[\csname Ln@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{OT1}{fln}{}
+
+\DeclareFontShape{OT1}{fln}{m}{n}{    <-> \Ln@@scale fltrg7tn}{}
+\DeclareFontShape{OT1}{fln}{m}{a}{    <-> \Ln@@scale fltr7tn}{}
+\DeclareFontShape{OT1}{fln}{m}{it}{   <-> \Ln@@scale flti7tn}{}
+\DeclareFontShape{OT1}{fln}{b}{n}{    <-> \Ln@@scale fltb7tn}{}
+\DeclareFontShape{OT1}{fln}{b}{it}{    <-> \Ln@@scale fltbi7tn}{}
+\DeclareFontShape{OT1}{fln}{m}{sc}{   <-> \Ln@@scale fltc7tn}{}
+
+\DeclareFontShape{OT1}{fln}{bx}{n}{<->ssub * fln/b/n}{}
+\DeclareFontShape{OT1}{fln}{bx}{it}{<->ssub * fln/b/it}{}
+
+\endinput

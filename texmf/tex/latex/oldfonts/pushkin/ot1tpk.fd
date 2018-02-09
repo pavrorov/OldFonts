@@ -1,0 +1,21 @@
+%Filename: ot1tpk.fd
+%
+% By A.V.Dmitriev. Provides font scaling (May 2005).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ot1tpk.fd}
+   [2005/06/03 Font definitions for OT1/tpk.]
+
+\expandafter\ifx\csname Pn@scale\endcsname\relax
+ \let\Pn@@scale\@empty
+\else
+ \edef\Pn@@scale{s*[\csname Pn@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{OT1}{tpk}{}
+
+\DeclareFontShape{OT1}{tpk}{m}{n}{   <-> \Pn@@scale tpkr7t}{}
+
+\endinput

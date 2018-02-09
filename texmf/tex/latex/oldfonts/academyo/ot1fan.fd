@@ -1,0 +1,29 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, Feb. 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{ot1fan.fd}
+   [2004/02/17 Font definitions for OT1/fan.]
+
+\expandafter\ifx\csname An@scale\endcsname\relax
+ \let\An@@scale\@empty
+\else
+ \edef\An@@scale{s*[\csname An@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{OT1}{fan}{}
+
+\DeclareFontShape{OT1}{fan}{m}{n}{<-> \An@@scale faor7tn}{}
+\DeclareFontShape{OT1}{fan}{m}{it}{<-> \An@@scale faoi7tn}{}
+\DeclareFontShape{OT1}{fan}{bx}{e}{<-> \An@@scale faob7tn}{}
+\DeclareFontShape{OT1}{fan}{m}{sc}{<-> \An@@scale faoc7tn}{}
+
+%\DeclareFontShape{OT1}{fan}{bx}{n}{<->ssub * fan/m/sc}{}    % Small Caps
+\DeclareFontShape{OT1}{fan}{bx}{n}{<->ssub * fan/bx/e}{}   % AcademyOldBold 
+							    %   condenced
+\DeclareFontShape{OT1}{fan}{b}{n}{<->ssub * fan/bx/n}{}
+\DeclareFontShape{OT1}{fan}{m}{sl}{<->ssub * fan/m/it}{}
+
+\endinput

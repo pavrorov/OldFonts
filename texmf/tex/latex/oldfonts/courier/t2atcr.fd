@@ -1,0 +1,24 @@
+%Filename: t2atcr.fd
+%
+% By A.V.Dmitriev. Provides font scaling (May 2005).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t2atcr.fd}
+   [2005/05/31 Font definitions for T2A/tcr.]
+
+\expandafter\ifx\csname Co@scale\endcsname\relax
+ \let\Co@@scale\@empty
+\else
+ \edef\Co@@scale{s*[\csname Co@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T2A}{tcr}{}
+
+\DeclareFontShape{T2A}{tcr}{m}{n}{   <-> \Co@@scale tcrr6a}{}
+\DeclareFontShape{T2A}{tcr}{m}{o}{   <-> \Co@@scale tcrro6a}{}
+
+\DeclareFontShape{T2A}{tcr}{m}{it}{<->ssub * tcr/m/o}{}
+
+\endinput

@@ -1,0 +1,28 @@
+%% This file is a part of Cyrillic package OldFonts
+%% by A.V.Dmitriev, March 2004.
+%%
+%% Provides fonts scaling via the parameter [scaled=<factor>] 
+%% in analogy to helvet.sty from psnfss bundle.
+%%
+\ProvidesFile{t2dlpl.fd}
+   [2004/03/10 Font definitions for T2D/lpl.]
+
+\expandafter\ifx\csname Pl@scale\endcsname\relax
+ \let\Pl@@scale\@empty
+\else
+ \edef\Pl@@scale{s*[\csname Pl@scale\endcsname]}%
+\fi
+
+\DeclareFontFamily{T2D}{lpl}{}
+
+\DeclareFontShape{T2D}{lpl}{m}{n}{<-> \Pl@@scale lplr6u}{}
+\DeclareFontShape{T2D}{lpl}{m}{it}{<-> \Pl@@scale lplri6u}{}
+\DeclareFontShape{T2D}{lpl}{m}{sc}{<-> \Pl@@scale lplrc6u}{}
+\DeclareFontShape{T2D}{lpl}{bx}{n}{<-> \Pl@@scale lplb6u}{}
+\DeclareFontShape{T2D}{lpl}{bx}{it}{<-> \Pl@@scale lplbi6u}{}
+
+\DeclareFontShape{T2D}{lpl}{b}{n}{<->ssub * lpl/bx/n}{}
+\DeclareFontShape{T2D}{lpl}{b}{it}{<->ssub * lpl/bx/it}{}
+\DeclareFontShape{T2D}{lpl}{m}{sl}{<->ssub * lpl/m/it}{}
+
+\endinput

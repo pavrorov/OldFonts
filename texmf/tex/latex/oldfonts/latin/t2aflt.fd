@@ -1,0 +1,38 @@
+%Filename: t2aflt.fd
+%
+% By A.V.Dmitriev. Provides font scaling (June 2006).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t2aflt.fd}
+   [2006/06/19 Font definitions for T2A/flt.]
+
+\expandafter\ifx\csname Lt@scale\endcsname\relax
+ \let\Lt@@scale\@empty
+\else
+ \edef\Lt@@scale{s*[\csname Lt@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T2A}{flt}{}
+
+\DeclareFontShape{T2A}{flt}{m}{n}{   <-> \Lt@@scale fltrg6a}{}
+
+\DeclareFontShape{T2A}{flt}{m}{a}{   <-> \Lt@@scale fltr6a}{}
+
+\DeclareFontShape{T2A}{flt}{m}{it}{   <-> \Lt@@scale fltri6a}{}
+
+\DeclareFontShape{T2A}{flt}{b}{n}{   <-> \Lt@@scale fltb6a}{}
+
+\DeclareFontShape{T2A}{flt}{b}{it}{   <-> \Lt@@scale fltbi6a}{}
+
+\DeclareFontShape{T2A}{flt}{b}{sl}{   <-> \Lt@@scale fltbo6a}{}
+
+\DeclareFontShape{T2A}{flt}{m}{sc}{   <-> \Lt@@scale fltrc6a}{}
+
+
+\DeclareFontShape{T2A}{flt}{bx}{n}{<->ssub * flt/b/n}{}
+\DeclareFontShape{T2A}{flt}{bx}{sl}{<->ssub * flt/b/sl}{}
+\DeclareFontShape{T2A}{flt}{bx}{it}{<->ssub * flt/b/it}{}
+
+\endinput

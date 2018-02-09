@@ -1,0 +1,34 @@
+%%
+%% This is file `Pushkin.sty'.
+%% 
+%% By A.V.Dmitriev (June 2005). Provides font scaling via
+%% the parameter [scaled=<factor>] in analogy to helvet.sty from
+%% psnfss bundle.
+%%
+\ProvidesPackage{Pushkin}[2005/06/03 Pushkin Skript Cyrillic font as default roman]
+\RequirePackage{keyval}
+\define@key{Pkn}{scaled}[.95]{%
+  \def\Pn@scale{#1}}
+\def\ProcessOptionsWithKV#1{%
+  \let\@tempc\relax
+  \let\Pn@tempa\@empty
+  \@for\CurrentOption:=\@classoptionslist\do{%
+    \@ifundefined{KV@#1@\CurrentOption}%
+    {}%
+    {\edef\Pn@tempa{\Pn@tempa,\CurrentOption,}}%
+  }%
+  \edef\Pn@tempa{%
+    \noexpand\setkeys{#1}{%
+      \Pn@tempa\@ptionlist{\@currname.\@currext}%
+    }%
+  }%
+  \Pn@tempa
+}
+\ProcessOptionsWithKV{Pkn}
+\AtEndOfPackage{%
+  \let\@unprocessedoptions\relax
+}
+\renewcommand{\rmdefault}{tpk}
+\endinput
+%%
+%% End of file `Pushkin.sty'.

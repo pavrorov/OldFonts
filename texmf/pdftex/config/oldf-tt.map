@@ -1,0 +1,219 @@
+%
+% Pdflatex map file for OldFonts Cyrillic fonts package (TrueType version).
+%     A.V.Dmitriev, Feb. 2006.
+%
+%
+rfaor7t  AcademyOld 	  " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc < acado___.ttf
+rfaor8t  AcademyOld 	  " T1Encoding ReEncodeFont "	    <t1-wgl4.enc  < acado___.ttf
+rfaor6a  AcademyOld 	  " T2AAdobeEncoding ReEncodeFont " <t2a.enc	  < acado___.ttf
+rfaor6u  AcademyOld 	  " T2DEncoding ReEncodeFont "      <t2d.enc	  < acado___.ttf
+
+rfaori7t AcademyOldItalic " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc < acadoi__.ttf
+rfaori8t AcademyOldItalic " T1Encoding ReEncodeFont "       <t1-wgl4.enc  < acadoi__.ttf
+rfaori6a AcademyOldItalic " T2AAdobeEncoding ReEncodeFont " <t2a.enc	  < acadoi__.ttf
+rfaori6u AcademyOldItalic " T2DEncoding ReEncodeFont "      <t2d.enc	  < acadoi__.ttf
+
+rfaob7t  AcademyOldBold   " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc < acadob__.ttf
+rfaob8t  AcademyOldBold   " T1Encoding ReEncodeFont "	    <t1-wgl4.enc  < acadob__.ttf
+rfaob6a  AcademyOldBold   " T2AAdobeEncoding ReEncodeFont " <t2a.enc	  < acadob__.ttf
+rfaob6u  AcademyOldBold   " T2DEncoding ReEncodeFont "      <t2d.enc	  < acadob__.ttf
+
+rfaobo6a AcademyOldBoldOblique " T2AEncoding ReEncodeFont " <t2a.enc      < acadobo_.ttf
+rfaobo6u AcademyOldBoldOblique " T2DEncoding ReEncodeFont " <t2d.enc	  < acadobo_.ttf
+rfaobo8t AcademyOldBoldOblique " T1Encoding ReEncodeFont "  <t1-wgl4.enc  < acadobo_.ttf
+rfaobo7t AcademyOldBoldOblique " OT1Encoding ReEncodeFont " <ot1-wgl4.enc < acadobo_.ttf
+
+rfaorc7t AcademyOld 	  " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc < acado___.ttf
+rfaorc8t AcademyOld 	  " T1Encoding ReEncodeFont "	    <t1-wgl4.enc  < acado___.ttf
+rfaorc6a AcademyOld 	  " T2AAdobeEncoding ReEncodeFont " <t2a.enc	  < acado___.ttf
+rfaorc6u AcademyOld 	  " T2DEncoding ReEncodeFont "      <t2d.enc	  < acado___.ttf
+
+rfaor7tn AcademyOldNarrow 	" OT1Encoding ReEncodeFont "	  <ot1-wgl4.enc < acadon__.ttf
+rfaor8tn AcademyOldNarrow 	" T1Encoding ReEncodeFont "	  <t1-wgl4.enc  < acadon__.ttf
+rfaor6an AcademyOldNarrow 	" T2AAdobeEncoding ReEncodeFont " <t2a.enc	< acadon__.ttf
+rfaor6un AcademyOldNarrow 	" T2DEncoding ReEncodeFont "	  <t2d.enc	< acadon__.ttf
+
+rfaoi7tn AcademyOldNarrowItalic " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc < acadoni_.ttf
+rfaoi8tn AcademyOldNarrowItalic " T1Encoding ReEncodeFont "       <t1-wgl4.enc  < acadoni_.ttf
+rfaoi6an AcademyOldNarrowItalic " T2AAdobeEncoding ReEncodeFont " <t2a.enc      < acadoni_.ttf
+rfaoi6un AcademyOldNarrowItalic " T2DEncoding ReEncodeFont "      <t2d.enc      < acadoni_.ttf
+
+rfaob7tn AcademyOldNarrowBold   " OT1Encoding ReEncodeFont "	  <ot1-wgl4.enc < acadonb_.ttf
+rfaob8tn AcademyOldNarrowBold   " T1Encoding ReEncodeFont "	  <t1-wgl4.enc  < acadonb_.ttf
+rfaob6an AcademyOldNarrowBold   " T2AAdobeEncoding ReEncodeFont " <t2a.enc	< acadonb_.ttf
+rfaob6un AcademyOldNarrowBold   " T2DEncoding ReEncodeFont "	  <t2d.enc	< acadonb_.ttf
+
+rfaoc7tn AcademyOldNarrow 	" OT1Encoding ReEncodeFont "	  <ot1-wgl4.enc < acadon__.ttf
+rfaoc8tn AcademyOldNarrow 	" T1Encoding ReEncodeFont "	  <t1-wgl4.enc  < acadon__.ttf
+rfaoc6an AcademyOldNarrow 	" T2AAdobeEncoding ReEncodeFont " <t2a.enc	< acadon__.ttf
+rfaoc6un AcademyOldNarrow 	" T2DEncoding ReEncodeFont "	  <t2d.enc	< acadon__.ttf
+
+rtcrr6a  CourierOR " T2AEncoding ReEncodeFont " < t2a.enc      < crr35_or.ttf
+rtcrr6u  CourierOR " T2DEncoding ReEncodeFont " < t2d.enc      < crr35_or.ttf
+rtcrr8t  CourierA  " T1Encoding ReEncodeFont "  <t1-wgl4.enc   < crr35__a.ttf
+rtcrr7t  CourierA  " OT1Encoding ReEncodeFont " <ot1-wgl4.enc  < crr35__a.ttf
+
+rtcrro6a CourierOR " T2AEncoding ReEncodeFont " < t2a.enc      < crr35_or.ttf
+rtcrro6u CourierOR " T2DEncoding ReEncodeFont " < t2d.enc      < crr35_or.ttf
+rtcrro8t CourierA  " T1Encoding ReEncodeFont "  <t1-wgl4.enc   < crr35__a.ttf
+rtcrro7t CourierA  " OT1Encoding ReEncodeFont " <ot1-wgl4.enc  < crr35__a.ttf
+
+rfdrr6a  Drevnerusskij " T2AEncoding ReEncodeFont " < t2a.enc < drevneru.ttf
+rfdrc6a  Drevnerusskij " T2AEncoding ReEncodeFont " < t2a.enc < drevneru.ttf
+rfdrr6u  Drevnerusskij " T2DEncoding ReEncodeFont " < t2d.enc < drevneru.ttf
+rfdrc6u  Drevnerusskij " T2DEncoding ReEncodeFont " < t2d.enc < drevneru.ttf
+
+rfezr7t  Elizabeth_tt-Uni 	 " OT1Encoding ReEncodeFont "      < ot1-wgl4.enc < elizuttr.ttf 
+rfezr8t  Elizabeth_tt-Uni 	 " T1Encoding ReEncodeFont "       < t1-wgl4.enc  < elizuttr.ttf 
+rfezr6a  Elizabeth_tt-Uni 	 " T2AAdobeEncoding ReEncodeFont " < t2a.enc      < elizuttr.ttf 
+rfezr6u  Elizabeth_tt-Uni 	 " T2DEncoding ReEncodeFont "      < t2d.enc      < elizuttr.ttf
+
+rfezrc7t Elizabeth_tt-Uni 	 " OT1Encoding ReEncodeFont "      <ot1-wgl4.enc < elizuttr.ttf
+rfezrc8t Elizabeth_tt-Uni 	 " T1Encoding ReEncodeFont "       <t1-wgl4.enc  < elizuttr.ttf
+rfezrc6a Elizabeth_tt-Uni 	 " T2AAdobeEncoding ReEncodeFont " < t2a.enc     < elizuttr.ttf 
+rfezrc6u Elizabeth_tt-Uni 	 " T2DEncoding ReEncodeFont "      < t2d.enc     < elizuttr.ttf
+
+rfezri7t Elizabeth_tt-Uni-Italic " OT1Encoding ReEncodeFont "      < ot1-wgl4.enc < elizutti.ttf
+rfezri8t Elizabeth_tt-Uni-Italic " T1Encoding ReEncodeFont "       < t1-wgl4.enc  < elizutti.ttf
+rfezri6a Elizabeth_tt-Uni-Italic " T2AAdobeEncoding ReEncodeFont " < t2a.enc      < elizutti.ttf
+rfezri6u Elizabeth_tt-Uni-Italic " T2DEncoding ReEncodeFont "      < t2d.enc      < elizutti.ttf
+
+rfezr7tn  Elizabeth-ps-Uni-Narrow " OT1Encoding ReEncodeFont "      < ot1-wgl4.enc < elizuttn.ttf 
+rfezr8tn  Elizabeth-ps-Uni-Narrow " T1Encoding ReEncodeFont "       < t1-wgl4.enc  < elizuttn.ttf 
+rfezr6an  Elizabeth-ps-Uni-Narrow " T2AAdobeEncoding ReEncodeFont " < t2a.enc      < elizuttn.ttf 
+rfezr6un  Elizabeth-ps-Uni-Narrow " T2DEncoding ReEncodeFont "      < t2d.enc      < elizuttn.ttf
+
+rfezc7tn Elizabeth-ps-Uni-Narrow " OT1Encoding ReEncodeFont "	   < ot1-wgl4.enc < elizuttn.ttf
+rfezc8tn Elizabeth-ps-Uni-Narrow " T1Encoding ReEncodeFont "	   < t1-wgl4.enc  < elizuttn.ttf
+rfezc6an Elizabeth-ps-Uni-Narrow " T2AAdobeEncoding ReEncodeFont " < t2a.enc	  < elizuttn.ttf 
+rfezc6un Elizabeth-ps-Uni-Narrow " T2DEncoding ReEncodeFont "	   < t2d.enc	  < elizuttn.ttf
+
+rfezi6an Elizabeth-ps-Uni-Italic-Narrow " T2AEncoding ReEncodeFont " <t2a.enc      < elizutin.ttf
+rfezi6un Elizabeth-ps-Uni-Italic-Narrow " T2DEncoding ReEncodeFont " <t2d.enc	   < elizutin.ttf
+rfezi8tn Elizabeth-ps-Uni-Italic-Narrow " T1Encoding ReEncodeFont "  <t1-wgl4.enc  < elizutin.ttf
+rfezi7tn Elizabeth-ps-Uni-Italic-Narrow " OT1Encoding ReEncodeFont " <ot1-wgl4.enc < elizutin.ttf
+
+rfltr6a  Latin-Roman  " T2AEncoding ReEncodeFont " < t2a.enc	  < latin___.ttf
+rfltr6u  Latin-Roman  " T2DEncoding ReEncodeFont " < t2d.enc	  < latin___.ttf
+rfltr8t  Latin-Roman  " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < latin___.ttf
+rfltr7t  Latin-Roman  " TO1Encoding ReEncodeFont " < ot1-wgl4.enc < latin___.ttf
+
+rfltrc6a Latin-Roman  " T2AEncoding ReEncodeFont " < t2a.enc	  < latin___.ttf
+rfltrc6u Latin-Roman  " T2DEncoding ReEncodeFont " < t2d.enc	  < latin___.ttf
+rfltrc8t Latin-Roman  " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < latin___.ttf
+rfltrc7t Latin-Roman  " TO1Encoding ReEncodeFont " < ot1-wgl4.enc < latin___.ttf
+
+rfltri6a Latin-Italic " T2AEncoding ReEncodeFont " < t2a.enc      < latini__.ttf
+rfltri6u Latin-Italic " T2DEncoding ReEncodeFont " < t2d.enc      < latini__.ttf
+rfltri8t Latin-Italic " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < latini__.ttf
+rfltri7t Latin-Italic " TO1Encoding ReEncodeFont " < ot1-wgl4.enc < latini__.ttf
+
+rfltb6a  Latin-Bold   " T2AEncoding ReEncodeFont " < t2a.enc	  < latinb__.ttf
+rfltb6u  Latin-Bold   " T2DEncoding ReEncodeFont " < t2d.enc	  < latinb__.ttf
+rfltb8t  Latin-Bold   " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < latinb__.ttf
+rfltb7t  Latin-Bold   " TO1Encoding ReEncodeFont " < ot1-wgl4.enc < latinb__.ttf
+
+rfltbi6u Latin-BoldItalic " T2DEncoding ReEncodeFont " <t2d.enc       < latinbi_.ttf
+rfltbi6a Latin-BoldItalic " T2AEncoding ReEncodeFont " <t2a.enc       < latinbi_.ttf
+rfltbi8t Latin-BoldItalic " T1Encoding ReEncodeFont "  <t1-wgl4.enc   < latinbi_.ttf
+rfltbi7t Latin-BoldItalic " OT1Encoding ReEncodeFont " <ot1-wgl4.enc  < latinbi_.ttf
+
+rfltbo6a Latin-BoldOblique " T2AEncoding ReEncodeFont " <t2a.enc      < latinbo_.ttf
+rfltbo6u Latin-BoldOblique " T2DEncoding ReEncodeFont " <t2d.enc      < latinbo_.ttf
+rfltbo8t Latin-BoldOblique " T1Encoding ReEncodeFont " <t1-wgl4.enc   < latinbo_.ttf
+rfltbo7t Latin-BoldOblique " OT1Encoding ReEncodeFont " <ot1-wgl4.enc < latinbo_.ttf
+
+rfltr6an Latin-Roman-Narrow " T2AEncoding ReEncodeFont " < t2a.enc      < latinn__.ttf
+rfltr6un Latin-Roman-Narrow " T2DEncoding ReEncodeFont " < t2d.enc      < latinn__.ttf
+rfltr8tn Latin-Roman-Narrow " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < latinn__.ttf
+rfltr7tn Latin-Roman-Narrow " TO1Encoding ReEncodeFont " < ot1-wgl4.enc < latinn__.ttf
+
+rfltc6an Latin-Roman-Narrow " T2AEncoding ReEncodeFont " < t2a.enc      < latinn__.ttf
+rfltc6un Latin-Roman-Narrow " T2DEncoding ReEncodeFont " < t2d.enc      < latinn__.ttf
+rfltc8tn Latin-Roman-Narrow " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < latinn__.ttf
+rfltc7tn Latin-Roman-Narrow " TO1Encoding ReEncodeFont " < ot1-wgl4.enc < latinn__.ttf
+
+rflti6an Latin-Italic-Narrow " T2AEncoding ReEncodeFont " < t2a.enc      < latinin_.ttf
+rflti6un Latin-Italic-Narrow " T2DEncoding ReEncodeFont " < t2d.enc      < latinin_.ttf
+rflti8tn Latin-Italic-Narrow " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < latinin_.ttf
+rflti7tn Latin-Italic-Narrow " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < latinin_.ttf
+
+rfltb6an Latin-Bold-Narrow " T2AEncoding ReEncodeFont " < t2a.enc       < latinbn_.ttf
+rfltb6un Latin-Bold-Narrow " T2DEncoding ReEncodeFont " < t2d.enc       < latinbn_.ttf
+rfltb8tn Latin-Bold-Narrow " T1Encoding ReEncodeFont "  < t1-wgl4.enc   < latinbn_.ttf
+rfltb7tn Latin-Bold-Narrow " OT1Encoding ReEncodeFont " < ot1-wgl4.enc  < latinbn_.ttf
+
+rfltbi6un Latin-BoldItalic-Narrow " T2DEncoding ReEncodeFont " <t2d.enc      < latinbin.ttf 
+rfltbi6an Latin-BoldItalic-Narrow " T2AEncoding ReEncodeFont " <t2a.enc      < latinbin.ttf
+rfltbi8tn Latin-BoldItalic-Narrow " T1Encoding ReEncodeFont "  <t1-wgl4.enc  < latinbin.ttf
+rfltbi7tn Latin-BoldItalic-Narrow " OT1Encoding ReEncodeFont " <ot1-wgl4.enc < latinbin.ttf
+
+rfltrg6a LatinS-Roman " T2AAdobeEncoding ReEncodeFont " < t2a.enc      < lating__.ttf
+rfltrg6u LatinS-Roman " T2DEncoding ReEncodeFont "      < t2d.enc      < lating__.ttf
+rfltrg8t LatinS-Roman " T1Encoding ReEncodeFont "       < t1-wgl4.enc  < lating__.ttf
+rfltrg7t LatinS-Roman " OT1Encoding ReEncodeFont "      < ot1-wgl4.enc < lating__.ttf
+
+rfltrg6an LatinS-Roman-Narrow " T2AAdobeEncoding ReEncodeFont " < t2a.enc      < latingn_.ttf
+rfltrg6un LatinS-Roman-Narrow " T2DEncoding ReEncodeFont "      < t2d.enc      < latingn_.ttf
+rfltrg8tn LatinS-Roman-Narrow " T1Encoding ReEncodeFont "       < t1-wgl4.enc  < latingn_.ttf
+rfltrg7tn LatinS-Roman-Narrow " OT1Encoding ReEncodeFont "      < ot1-wgl4.enc < latingn_.ttf
+
+rfnsr7t  NewStandardOld       " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstao___.ttf
+rfnsr8t  NewStandardOld       " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstao___.ttf
+rfnsr6a  NewStandardOld       " T2AEncoding ReEncodeFont " < t2a.enc	  < nstao___.ttf
+rfnsr6u  NewStandardOld       " T2DEncoding ReEncodeFont " < t2d.enc	  < nstao___.ttf
+
+rfnsrc7t NewStandardOld       " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstao___.ttf
+rfnsrc8t NewStandardOld       " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstao___.ttf
+rfnsrc6a NewStandardOld       " T2AEncoding ReEncodeFont " < t2a.enc	  < nstao___.ttf
+rfnsrc6u NewStandardOld       " T2DEncoding ReEncodeFont " < t2d.enc	  < nstao___.ttf
+
+rfnsri7t NewStandardOldItalic " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstaoi__.ttf
+rfnsri8t NewStandardOldItalic " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstaoi__.ttf
+rfnsri6a NewStandardOldItalic " T2AEncoding ReEncodeFont " < t2a.enc	  < nstaoi__.ttf
+rfnsri6u NewStandardOldItalic " T2DEncoding ReEncodeFont " < t2d.enc	  < nstaoi__.ttf
+
+rfnsb7t  NewStandardOldBold   " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstaob__.ttf
+rfnsb8t  NewStandardOldBold   " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstaob__.ttf
+rfnsb6a  NewStandardOldBold   " T2AEncoding ReEncodeFont " < t2a.enc	  < nstaob__.ttf
+rfnsb6u  NewStandardOldBold   " T2DEncoding ReEncodeFont " < t2d.enc	  < nstaob__.ttf
+
+rfnsbo6a NewStandardOldBoldOblique " T2AEncoding ReEncodeFont " <t2a.enc      < nstaobo_.ttf
+rfnsbo6u NewStandardOldBoldOblique " T2DEncoding ReEncodeFont " <t2d.enc      < nstaobo_.ttf
+rfnsbo8t NewStandardOldBoldOblique " T1Encoding ReEncodeFont "  <t1-wgl4.enc  < nstaobo_.ttf
+rfnsbo7t NewStandardOldBoldOblique " OT1Encoding ReEncodeFont " <ot1-wgl4.enc < nstaobo_.ttf
+
+rfnsc7tx NewStandardOldExtended " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstaox__.ttf
+rfnsc8tx NewStandardOldExtended " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstaox__.ttf
+rfnsc6ax NewStandardOldExtended " T2AEncoding ReEncodeFont " < t2a.enc      < nstaox__.ttf
+rfnsc6ux NewStandardOldExtended " T2DEncoding ReEncodeFont " < t2d.enc      < nstaox__.ttf
+
+rfnsr7tx NewStandardOldExtended " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstaox__.ttf
+rfnsr8tx NewStandardOldExtended " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstaox__.ttf
+rfnsr6ax NewStandardOldExtended " T2AEncoding ReEncodeFont " < t2a.enc      < nstaox__.ttf
+rfnsr6ux NewStandardOldExtended " T2DEncoding ReEncodeFont " < t2d.enc      < nstaox__.ttf
+
+rfnsr7tn NewStandardOldNarrow " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstaon__.ttf
+rfnsr8tn NewStandardOldNarrow " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstaon__.ttf
+rfnsr6an NewStandardOldNarrow " T2AEncoding ReEncodeFont " < t2a.enc	  < nstaon__.ttf
+rfnsr6un NewStandardOldNarrow " T2DEncoding ReEncodeFont " < t2d.enc	  < nstaon__.ttf
+
+rfnsc7tn NewStandardOldNarrow " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstaon__.ttf
+rfnsc8tn NewStandardOldNarrow " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstaon__.ttf
+rfnsc6an NewStandardOldNarrow " T2AEncoding ReEncodeFont " < t2a.enc	  < nstaon__.ttf
+rfnsc6un NewStandardOldNarrow " T2DEncoding ReEncodeFont " < t2d.enc	  < nstaon__.ttf
+
+rfnsi7tn NewStandardOldNarrowItalic " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstaoni_.ttf
+rfnsi8tn NewStandardOldNarrowItalic " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstaoni_.ttf
+rfnsi6an NewStandardOldNarrowItalic " T2AEncoding ReEncodeFont " < t2a.enc      < nstaoni_.ttf
+rfnsi6un NewStandardOldNarrowItalic " T2DEncoding ReEncodeFont " < t2d.enc      < nstaoni_.ttf
+
+rfnsb7tn NewStandardOldNarrowBold " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < nstaonb_.ttf
+rfnsb8tn NewStandardOldNarrowBold " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < nstaonb_.ttf
+rfnsb6an NewStandardOldNarrowBold " T2AEncoding ReEncodeFont " < t2a.enc      < nstaonb_.ttf
+rfnsb6un NewStandardOldNarrowBold " T2DEncoding ReEncodeFont " < t2d.enc      < nstaonb_.ttf
+
+rtpkr6a Pushkin " T2AEncoding ReEncodeFont " < t2a.enc      < Pushkin.ttf
+rtpkr6u Pushkin " T2DEncoding ReEncodeFont " < t2d.enc      < Pushkin.ttf
+rtpkr8t Pushkin " T1Encoding ReEncodeFont "  < t1-wgl4.enc  < Pushkin.ttf
+rtpkr7t Pushkin " OT1Encoding ReEncodeFont " < ot1-wgl4.enc < Pushkin.ttf

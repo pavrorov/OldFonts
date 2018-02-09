@@ -1,0 +1,29 @@
+%Filename: t1fln.fd
+%
+% By A.V.Dmitriev. Provides font scaling (June 2006).
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t1fln.fd}
+   [2006/06/19 Font definitions for T1/fln.]
+
+\expandafter\ifx\csname Ln@scale\endcsname\relax
+ \let\Ln@@scale\@empty
+\else
+ \edef\Ln@@scale{s*[\csname Ln@scale\endcsname]}%
+\fi
+
+
+\DeclareFontFamily{T1}{fln}{}
+
+\DeclareFontShape{T1}{fln}{m}{n}{    <-> \Ln@@scale fltrg8tn}{}
+\DeclareFontShape{T1}{fln}{m}{a}{    <-> \Ln@@scale fltr8tn}{}
+\DeclareFontShape{T1}{fln}{m}{it}{   <-> \Ln@@scale flti8tn}{}
+\DeclareFontShape{T1}{fln}{b}{n}{    <-> \Ln@@scale fltb8tn}{}
+\DeclareFontShape{T1}{fln}{b}{it}{    <-> \Ln@@scale fltbi8tn}{}
+\DeclareFontShape{T1}{fln}{m}{sc}{   <-> \Ln@@scale fltc8tn}{}
+
+\DeclareFontShape{T1}{fln}{bx}{n}{<->ssub * fln/b/n}{}
+\DeclareFontShape{T1}{fln}{bx}{it}{<->ssub * fln/b/it}{}
+
+\endinput
